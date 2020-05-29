@@ -1,0 +1,64 @@
+body{
+	background-image: url(../Multimedia/Fondo.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+form{
+	width: 450px;
+	margin: auto;
+	background: rgba(156, 156, 156, 0.5);
+	padding: 15px 20px;
+	box-sizing: border-box;
+	margin-top: 40px;
+	border-radius: 10px;
+}
+
+h2{
+	color: #294441;
+	font-family: Segoe UI Light;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+input, textarea{
+	font-family: Lucida Sans;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+}
+
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+#boton{
+	background: #31184a;
+	color: #fff;
+	padding: 20px;
+}
+
+#boton:hover{
+	cursor: pointer;
+}
+
+#boton:active{
+	background: black;
+}
+
+@media (max-width: 480px) {
+	
+	form{
+		width: 100%;
+	}
+
+}

@@ -1,0 +1,83 @@
+body{
+	background-image: url(../MULTIMEDIA/Fondo.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+.contenedor{
+	width: 75%;
+	margin: 0 auto;
+	padding: 20px;
+	background: rgba(146, 146, 146, 0.2);
+	max-width: 1000px;
+	box-sizing: border-box; 
+	overflow: hidden;
+}
+
+h1{
+	text-align: center;
+	font-family: Palatino Linotype;
+}
+
+aside{
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	width: 20%;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+}
+
+aside img{
+	width: 100%;
+	height: auto;
+}
+
+footer{
+	background: rgba(95, 95, 95, 0.3);
+	border-radius: 10px;
+	width: 100%;
+	padding: 5px 20px;
+	margin: 20px 0 0 0;
+	box-sizing: border-box;
+	float: left;
+}
+
+.main{
+	background: rgba(10,10,10,0.8);
+	padding: 20px;
+	box-sizing: border-box;
+	width: 80%;
+	float: left;
+}
+
+p{
+	text-align: justify;
+	font-family: Segoe UI;
+	color: #C0C0C0;
+}
+
+a{
+	color: #BF4242;
+}
+
+a:hover{
+	color: #C0C0C0;
+}
+
+@media screen and (max-width: 850px) {
+	.main{
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+	}
+
+	aside img{
+		max-width: 200px;
+		height: auto;
+	}
+
+}
